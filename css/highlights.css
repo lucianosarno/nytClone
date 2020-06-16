@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, div, h1, main, img, body {
+  border: 0.1px solid red;
+}
