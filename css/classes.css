@@ -221,3 +221,51 @@
   line-height: 19px;
   margin: 25px 0;
 }
+
+
+/* Editors Aside*/
+.editors {
+  position: absolute;
+  right: 240px;
+  top: 1850px;
+  width: 210px;
+}
+
+.editors__header{
+  color:black;
+  font-family: helvetica;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+.editors article {
+  margin-bottom: 20px;
+}
+
+.editors__header::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin: 8px 0 12px 0;
+}
+
+.editors__img {
+  display:inline-block;
+  width: 75px;
+}
+
+.editors__title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: black;
+  align-self: center;
+  margin-left: 8px;
+}
+
+
+
+
+
+
