@@ -106,6 +106,90 @@
   font-stretch: 100%;
   font-weight: 700;
   margin-top: 66px;
-  margin-left: 345.5px;
   margin-bottom: 24px;
+}
+
+.textStartHeader {
+  display: block;
+  margin-left: 343.5px;
+  width: 600px;
+}
+
+.commonIconsNav {
+  float: right;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shareIconsSvg {
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.commentsI {
+  color: rgb(0, 0, 0);
+  margin-top: auto;
+  width: 35px;
+  height: 23px;
+  border: 1px solid gray;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  border-radius: 4px;
+  padding: 9px 0 5px 0;
+}
+
+.commentsI::before {
+  bottom: -7px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 8px;
+}
+
+.commentsI:after {
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+}
+
+.commentsButton {
+  align-self: center;
+  background-color: transparent;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 2px;
+  min-width: 24px;
+  position: relative;
+  text-transform: uppercase;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  overflow: visible;
+  padding: 0px 0px 4px;
 }

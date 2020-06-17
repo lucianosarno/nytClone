@@ -47,3 +47,8 @@ h1 {
   font-stretch: 100%;
   line-height: 48px;
 }
+
+svg {
+  width: min-content;
+  height: min-content;
+}
