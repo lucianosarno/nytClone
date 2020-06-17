@@ -3,6 +3,6 @@
   padding: 0;
 }
 
-*, div, h1, main, img, body {
+header, nav {
   border: 0.1px solid red;
 }

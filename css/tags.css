@@ -52,3 +52,7 @@ svg {
   width: min-content;
   height: min-content;
 }
+
+a {
+  color: rgb(50, 104, 145);
+}
