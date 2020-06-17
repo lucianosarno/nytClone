@@ -329,4 +329,39 @@ section footer {
   font-weight: 500;
   height: 18px;
   line-height: 18px;
+  margin-bottom: 70px;
+}
+
+#underline:link {
+  text-decoration: underline;
+}
+
+.video{
+  display: block;
+  margin: 0 auto;
+  margin-top: 43px
+}
+
+.video-figc {
+  margin-top: 11px;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  line-height: 20px;
+  margin-bottom: 44px;
+}
+
+.video-figc:first-child{
+  margin-right: 7px;
+}
+.video-figc-em{
+  margin: 0 auto;
+  line-height: 18px;
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+}
+
+.img-space{
+  width: 720px;
+  display: block;
+  cursor: pointer;
 }

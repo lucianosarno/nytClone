@@ -41,10 +41,11 @@ a:link, a:visited {
 
 section footer:before {
   content: "";
+  display: block;
   color: red;
-  margin-top: 100px;
-  width: 40px;
+  margin-top: 45px;
+  margin-bottom:8px;
+  width: 60px;
   height: 10px;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
