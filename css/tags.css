@@ -34,7 +34,7 @@ main {
   margin: auto;
 }
 
-h1 {
+main>h1 {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
@@ -55,4 +55,20 @@ svg {
 
 a {
   color: rgb(50, 104, 145);
+}
+
+h3 {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+}
+
+section img {
+  width: 100%;
 }
