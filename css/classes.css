@@ -417,3 +417,66 @@ section footer {
   display: flex;
   justify-content: space-between;
 }
+
+.more{
+  width:70%;
+  margin:0 auto;
+  margin-top: 120px;
+}
+
+.more-1 {
+  width: 70%;
+  height: 100px;
+}
+
+.more-1-element{
+  width: 32%;
+  margin-top: 15px;
+}
+
+.more-1-element > img{
+  width: 100%;
+}
+
+.more-1-element span{
+  font-size:10px;
+  display: block;
+  color: rgb(153, 153, 153)
+} 
+
+
+.more-1-element > span:first-of-type{
+  margin-left: 80%;
+}
+
+.more-1-element a h3{
+  font-size:18px;
+  line-height: 22px;
+}
+
+.more h2 {
+  border-top: 1px solid black;
+  padding: 17px 0 0 0;
+}
+
+.more-2{
+  width: 30%;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.more-2 h3:first-of-type {
+  margin-top: 15px;
+}
+
+.more-2 h3 {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 15px 0 15px 0;
+  font-family:nyt-franklin, helvetica, arial, sans-serif;
+  font-size:16px;
+  
+  font-weight:500;
+  height:45px;
+  line-height:22px;
+}
+
