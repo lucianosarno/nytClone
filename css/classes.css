@@ -336,7 +336,7 @@ section footer {
   text-decoration: underline;
 }
 
-.video{
+.video {
   display: block;
   margin: 0 auto;
   margin-top: 43px
@@ -350,18 +350,70 @@ section footer {
   margin-bottom: 44px;
 }
 
-.video-figc:first-child{
+.video-figc:first-child {
   margin-right: 7px;
 }
-.video-figc-em{
+
+.video-figc-em {
   margin: 0 auto;
   line-height: 18px;
   color: rgb(136, 136, 136);
   font-size: 13px;
 }
 
-.img-space{
-  width: 720px;
+.img-space {
+  margin-top: 43px;
+  width: 100%;
   display: block;
   cursor: pointer;
+}
+
+.mainTextEndFooter {
+  width: 600px;
+  margin: auto;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: 32px;
+  line-height: 16px;
+  color: rgb(102, 102, 102);
+}
+
+.mainTextEndFooter>a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+.mainTextEndFooter>p {
+  margin-bottom: 25px;
+}
+
+.mainTextEndFooter>.btn {
+  width: 330px;
+  height: 36px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 600;
+  height: 36px;
+  letter-spacing: 0.65px;
+  line-height: 24px;
+  padding: 5px 0;
+}
+
+.mainTextEndFooter>.commonIconsNav {
+  width: 156px;
+  display: flex;
+  justify-content: space-between;
 }
