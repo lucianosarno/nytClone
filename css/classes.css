@@ -380,7 +380,7 @@ section footer {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: 400;
-  height: 32px;
+  height: max-content;
   line-height: 16px;
   color: rgb(102, 102, 102);
 }
@@ -431,6 +431,14 @@ section footer {
   width: 852px;
   left: 43px;
   height: 100px;
+  margin: 0;
+}
+
+.bem-moreArticles {
+  display: flex;
+  margin: auto;
+  margin-top: 65px;
+  padding: 43.5px;
 }
 
 .more-1-element {
@@ -464,17 +472,17 @@ section footer {
 }
 
 .more-2 {
-  width: 30%;
-  height: 100px;
-  margin-left: 20px;
-  right: 0;
+  width: 314px;
+  /* height: 100px; */
+  margin-left: 30px;
   float: right;
 }
 
-.more-2:after {
+
+/* .more-2:after {
   content: "";
   clear: both;
-}
+} */
 
 .more-2 h3:first-of-type {
   margin-top: 15px;
