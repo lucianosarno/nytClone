@@ -436,9 +436,10 @@ section footer {
 
 .bem-moreArticles {
   display: flex;
-  margin: auto;
   margin-top: 65px;
   padding: 43.5px;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .more-1-element {
@@ -500,4 +501,52 @@ section footer {
 
 .more-1__title {
   width: 100%;
+}
+
+.pickers {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 4px solid rgb(226, 226, 226);
+}
+
+.footer header{
+  height: 44px;
+}
+
+.footer header::after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.footer header a {
+  float: right;
+  color: rgb(86, 123, 149);
+  margin-top: 20px;
+
+}
+
+.footer header svg {
+  line-height: 16px;
+  font-size:16px;
+  width: 200px;
+  float:left;
+  margin-top: -50px;
+}
+
+.links-container ul li {
+  text-transform: capitalize;
+  font-weight: 500px;
+  font-size: 14px;
+  height: 23px
 }
