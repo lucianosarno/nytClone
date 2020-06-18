@@ -519,13 +519,12 @@ section footer {
   border-top: 4px solid rgb(226, 226, 226);
 }
 
-.footer header{
+.footer header {
   height: 44px;
 }
 
 .footer header::after {
   content: "";
-  display:table;
   clear: both;
 }
 
@@ -533,20 +532,106 @@ section footer {
   float: right;
   color: rgb(86, 123, 149);
   margin-top: 20px;
-
 }
 
 .footer header svg {
   line-height: 16px;
-  font-size:16px;
+  font-size: 16px;
   width: 200px;
-  float:left;
+  float: left;
   margin-top: -50px;
 }
 
-.links-container ul li {
+ul svg {
+  width: 13px;
+  overflow: visible;
+}
+
+.nytLogoFooter {
+  /* height: 48px; */
+  display: inline;
+}
+
+.linksContainer ul li {
   text-transform: capitalize;
-  font-weight: 500px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
-  height: 23px
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.linksContainer__linksAside a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 25px;
+  margin-top: 12px;
+}
+
+.linksContainer {
+  width: 197.328px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.linksContainer_aside {
+  margin-left: 15px;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.linksContainer__h2 {
+  margin-top: 20px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+}
+
+.linksAside {
+  float: left;
+}
+
+li a svg {
+  height: 13px;
+}
+
+.linksContainer__linksAside {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 25px;
 }

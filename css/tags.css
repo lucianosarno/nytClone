@@ -60,7 +60,7 @@ main>h1 {
 
 svg {
   width: min-content;
-  height: min-content;
+  /* height: min-content; */
 }
 
 h3 {
@@ -77,7 +77,6 @@ h3 {
 
 section img {
   width: 100%;
-
 }
 
 li {
