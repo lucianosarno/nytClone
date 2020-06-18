@@ -385,7 +385,7 @@ section footer {
   color: rgb(102, 102, 102);
 }
 
-.mainTextEndFooter>a {
+.mainTextEndFooter a {
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
@@ -418,39 +418,43 @@ section footer {
   justify-content: space-between;
 }
 
-.more{
-  width:70%;
-  margin:0 auto;
+.more {
+  width: 1200px;
+  margin: 0 auto;
   margin-top: 120px;
 }
 
 .more-1 {
-  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 852px;
+  left: 43px;
   height: 100px;
 }
 
-.more-1-element{
-  width: 32%;
+.more-1-element {
+  width: 272px;
   margin-top: 15px;
 }
 
-.more-1-element > img{
+.more-1-element>img {
   width: 100%;
 }
 
-.more-1-element span{
-  font-size:10px;
+.more-1-element span {
+  font-size: 10px;
   display: block;
   color: rgb(153, 153, 153)
-} 
-
-
-.more-1-element > span:first-of-type{
-  margin-left: 80%;
 }
 
-.more-1-element a h3{
-  font-size:18px;
+.more-1-element>span:first-of-type {
+  text-align: right;
+  width: 100%;
+}
+
+.more-1-element a h3 {
+  font-size: 18px;
   line-height: 22px;
 }
 
@@ -459,10 +463,17 @@ section footer {
   padding: 17px 0 0 0;
 }
 
-.more-2{
+.more-2 {
   width: 30%;
   height: 100px;
   margin-left: 20px;
+  right: 0;
+  float: right;
+}
+
+.more-2:after {
+  content: "";
+  clear: both;
 }
 
 .more-2 h3:first-of-type {
@@ -472,11 +483,13 @@ section footer {
 .more-2 h3 {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 15px 0 15px 0;
-  font-family:nyt-franklin, helvetica, arial, sans-serif;
-  font-size:16px;
-  
-  font-weight:500;
-  height:45px;
-  line-height:22px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 22px;
 }
 
+.more-1__title {
+  width: 100%;
+}
