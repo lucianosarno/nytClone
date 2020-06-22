@@ -24,16 +24,23 @@
   font-size: 14.25px;
   color: black;
   font-stretch: 100%;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
   text-transform: uppercase;
   font-weight: 700;
   height: auto;
   letter-spacing: 0.7px;
   line-height: 19px;
+  position: absolute;
+  top: 11px;
+  left: 104px;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}
+
+.header__nytLogo {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  top: 10px;
 }
 
 .menuButton {
@@ -47,6 +54,11 @@
   height: 16px;
   vertical-align: sub;
   width: 16px;
+}
+
+.nytLogo {
+  width: 195px;
+  height: 26px;
 }
 
 .searchButton {
