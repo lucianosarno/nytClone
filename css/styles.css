@@ -80,6 +80,11 @@
   top: 10px;
 }
 
+.main__mainImage {
+  width: 945px;
+  margin: auto;
+}
+
 .main__title {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 40px;
