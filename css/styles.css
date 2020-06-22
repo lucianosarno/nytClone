@@ -3,8 +3,45 @@
   padding: 0;
 }
 
+.button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  cursor: pointer;
+  height: 3.2rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 0.55px;
+  line-height: 11px;
+  letter-spacing: 0.55px;
+  border-radius: 3PX;
+  border: 1px solid rgb(50, 104, 145);
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  height: 32px;
+}
+
 .header {
   height: 42px;
+}
+
+.header__button {
+  position: absolute;
+  left: 82.8%;
+  top: 4px;
+}
+
+.header__button2 {
+  position: absolute;
+  left: 92.5%;
+  top: 4PX;
 }
 
 .header__menuButton {
@@ -39,7 +76,7 @@
 .header__nytLogo {
   position: relative;
   display: inline-block;
-  margin: auto;
+  left: 37.5%;
   top: 10px;
 }
 
