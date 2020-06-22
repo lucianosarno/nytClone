@@ -1,1 +1,63 @@
+.body, .body__header {
+  margin: 0;
+  padding: 0;
+}
 
+.header {
+  height: 42px;
+}
+
+.header__menuButton {
+  margin: 4px 10px;
+  width: 34px;
+  height: 32px;
+}
+
+.header__searchButton {
+  position: absolute;
+  top: 12px;
+  left: 60.5px;
+}
+
+.header__text {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14.25px;
+  color: black;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+
+.menuButton {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.menuButton__menuIconSvg {
+  display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+}
+
+.searchButton {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.searchButton__icon {
+  width: 16px;
+  height: 16px;
+}
