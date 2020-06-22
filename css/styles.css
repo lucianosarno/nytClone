@@ -80,6 +80,23 @@
   top: 10px;
 }
 
+.main__title {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 40px;
+  font-stretch: 100%;
+  font-style: italic;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 96px;
+  line-height: 48px;
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+}
+
 .menuButton {
   background-color: transparent;
   border: 0;
