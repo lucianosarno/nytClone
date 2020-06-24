@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.more, .more-1, .more-1-element {
+  border: 0.1px solid red;
+}
